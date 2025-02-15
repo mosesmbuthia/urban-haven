@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 63%;
+}
+:root {
+    --text-color: #000
+    --hover-color: #0067ff
+    --text-color2:#ffffff
+    --secondary-color: green
+    --space-p-color: 535252
+    --scroll-behavior: smooth
+}
+/*start of header*/
+.upper-header {
+display: flex;
+align-items: center;
+margin: 2rem;
+justify-content: space-between;
+
+}
+.company{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin-right: 8px;
+   
+}
+.navigation-bar {
+    display: flex;
+}
+.nav-list a {
+    text-decoration: none;
+    margin: 3rem;
+    color: var(--text-color);
+    transition: all ease.3s;
+    font-size: 20px;
+}
+.nav-list a:hover{
+    color: var(--hover-color);
+    cursor: pointer;
+}
+@media screen and (max width: 56.25rem) {
+    .upper-header{
+        flex-direction:column;
+    }
+    
+}
+/*end of header*/
+
+/*start of hero section*/
+/*start of home section*/
+.home-section{
+    min-height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),url(/assets/images/background-main.jpg);
+background-position: center;
+background-size:cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.home-container{
+    width: 90%;
+}
+.main-tagline{
+    font-size: 6.5rem;
+  text-align: center;
+  color:white
+}
+.sub-tagline{
+    text-align: center;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.sub-tag{
+    text-align: center;
+    color: greenyellow;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+.action-call{
+    display: flex;
+    justify-content: center;
+}
+.action-real{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: large;
+    text-transform: capitalize;
+    padding: 1.5rem;
+    font-weight: bolder;
+    display: inline-block;
+}
+.action-real-mod{
+    background-color: green;
+    color: white;
+}
+/*end of home section*/
+/*end of hero section*/
