@@ -5,6 +5,7 @@
 }
 html {
     font-size: 63%;
+    background-color: darkgray;
 }
 :root {
     --text-color: #000
@@ -56,8 +57,9 @@ margin-right: 8px;
 }
 /*end of header*/
 
-/*start of hero section*/
 /*start of home section*/
+
+/*start of hero section*/
 .home-section{
     min-height: 100vh;
 background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),url(/assets/images/background-main.jpg);
@@ -107,5 +109,68 @@ align-items: center;
     background-color: green;
     color: white;
 }
-/*end of home section*/
+
 /*end of hero section*/
+/*start of listing*/
+.available-listings{
+    min-height: 100vh;
+    
+    justify-content: center;
+    align-items: normal;
+   margin-top: 2rem;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.listings{
+    justify-content: center;
+        text-align: center;
+       
+        font-size: 3.5rem;
+    }
+.spaces-container{
+    display: flex;
+    
+}
+.available-spaces{
+    flex: 1;
+    text-align: center;
+    padding: 2rem;
+ 
+    margin: 2rem;
+    webkit-box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
+-moz-box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
+box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
+}
+
+
+.image-container{
+    object-position: center;
+    
+    object-fit:fill;
+    padding: 0;
+}
+.text{
+    text-align: left;
+    font-weight:lighter;
+    font-size:small;
+}
+.text-main{
+    text-align:left ;
+    font-size: 2rem;
+}
+.space-booking{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-weight: bolder;
+}
+.butt{
+    background-color: green;
+    border-radius: 5px;
+    padding: .5rem;
+
+}
+
+/*end of listing*/
+/*end of home section*/
