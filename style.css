@@ -219,6 +219,41 @@ align-items: center;
 /*end of about section*/
 /*start of amenitie section*/
 
-
+.amenities h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.amenities-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    margin: 1.5rem 1.5rem;
+    margin: 1.5rem;
+}
+.amenity{
+    border: solid black;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+.contact h2{
+    text-align: center;
+    font-size: 4rem;
+}
+.contact-form{
+    text-align: center;
+    font-size: 2rem;
+    border:1px solid black;
+   width: 40%;
+   margin-left: 30%;
+   padding: 1.5rem;
+   border-radius: 3rem;
+   margin-bottom: 30px;
+}
+.form-info{
+    display: flex;
+    padding-bottom: 1rem;
+}
 /*end of amenities section*/
+
 /*end of home section*/

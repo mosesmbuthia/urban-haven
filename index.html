@@ -17,11 +17,11 @@
     </div>
    
     <div class="navigation-bar">
-      <div class="nav-list"><a href="#">Home</a></div>
-      <div class="nav-list"><a href="#">Listings</a></div>
-      <div class="nav-list"><a href="#">Amenities</a></div>
-      <div class="nav-list"><a href="#">About</a></div>
-      <div class="nav-list"><a href="#">Contact</a></div>
+      <div class="nav-list"><a href="#home">Home</a></div>
+      <div class="nav-list"><a href="#listings">Listings</a></div>
+      <div class="nav-list"><a href="#amenities">Amenities</a></div>
+      <div class="nav-list"><a href="#about">About</a></div>
+      <div class="nav-list"><a href="#contact">Contact</a></div>
 
     </div>
    </header>
@@ -34,13 +34,13 @@
     <p class="sub-tagline">Find your dream living experience in Murang'a Town</p>
     <p class="sub-tag">Explore premium listings and find the perfect home for you </p>
     <div class="action-call">
-      <a href="#" class="action-real action-real-mod">explore listings</a>
+      <a href="listings" id="listings" class="action-real action-real-mod">explore listings</a>
     </div>
   </div>
 </section>
 <!--end of home section-->
 <!--start of listing section-->
-<div class="listings"><p>Listings Available</p>
+<div class="listings" id="listings"><p>Listings Available</p>
 </div>
 <section class="available-listings" id="#">
   
@@ -143,16 +143,68 @@
 </section>
 <!--end of about section-->
 <!--start of amenities section-->
-<section class="amenities-section">
+<section class="amenities-section" id="amenities">
   <div class="amenities">
     <h2>Amenities</h2>
-    <div class="amenity"> 
-
+    <div class="amenities-container">
+      <div class="amenity">
+        <h3><i class="fa-sharp fa-solid fa-wifi"></i>Free Wifi</h3>
+        <p>Except single rooms</p>  
+      </div>
+      <div class="amenity">
+        <h3><i class="fa-solid fa-square-parking"></i>Free Parking</h3>
+        <p>Except single rooms and bedsitters</p>  
+      </div>
+      <div class="amenity">
+        <h3><i class="fa-regular fa-washing-machine"></i>On-site Laundry</h3>
+        <p>@Ksh.150 per basket</p>  
+      </div>
+      <div class="amenity">
+        <h3><i class="fa-solid fa-dumbbell"></i>Free Gym</h3>
+        <p>Except single rooms and bedsitters</p>  
+      </div>
+      <div class="amenity">
+        <h3><i class="fa-sharp fa-solid fa-person-swimming"></i>Swimming Pool</h3>
+        <p>Free for everyone</p>  
+      </div>
+      <div class="amenity">
+        <h3><i class="fa-sharp fa-solid fa-elevator"></i>Elevator</h3>
+        <p>Access to upper floors</p>  
+      </div>
+      <div class="amenity">
+        <h3><i class="fa-sharp fa-solid fa-faucet-drip"></i>Free Water</h3>
+        <p>For all residents</p>  
+      </div>
+      <div class="amenity">
+        <h3><i class="fa-solid fa-masks-theater"></i>Community Theatre</h3>
+        <p>For all residents</p>  
+      </div>
     </div>
-  </div>
-
+  </div>  
 </section>
 <!--end of amenities section-->
 <!--end of herosection-->
+
+<!--start of contacts-->
+<section class="contact" id="contact">
+<h2>Contact Us</h2>
+<form action="#" class="contact-form">
+  <div class="form-info">
+    <label for="fname">First Name:</label>
+    <input type="text" name="firstname" id="fname" placeholder="John" required>
+  </div>
+  <div class="form-info">
+    <label for="lname">Surname:</label>
+    <input type="text" name="surname" id="sname" placeholder="Doe" required>
+  </div>
+  <div class="form-info">
+    <label for="fname">Email:</label>
+    <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required>
+  </div>
+  <button>Submit</button>
+</form>
+</section>
+
+<!--end of contacts-->
   </body>
 </html>
