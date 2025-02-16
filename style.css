@@ -49,7 +49,7 @@ margin-right: 8px;
     color: var(--hover-color);
     cursor: pointer;
 }
-@media screen and (max width: 56.25rem) {
+@media screen and (maxwidth: 56.25rem) {
     .upper-header{
         flex-direction:column;
     }
@@ -114,7 +114,6 @@ align-items: center;
 /*start of listing*/
 .available-listings{
     min-height: 100vh;
-    
     justify-content: center;
     align-items: normal;
    margin-top: 2rem;
@@ -126,6 +125,7 @@ align-items: center;
     justify-content: center;
         text-align: center;
         font-size: 3.5rem;
+        margin-top: 1.5rem;
     }
 .spaces-container{
     display: flex;
@@ -136,7 +136,7 @@ align-items: center;
     text-align: center;
     padding: 2rem;
     margin: 2rem;
-    webkit-box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
+    box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
 -moz-box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
 box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
 }
@@ -170,4 +170,55 @@ box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
 }
 
 /*end of listing*/
+/*start of about section*/
+.about-section{
+    min-height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),url(./assets/images/facade.jpeg);
+background-position: center;
+background-size:cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.about-container{
+    width: 90%;
+}
+.main-tag{
+    font-size: 6.5rem;
+  text-align: center;
+  color:white
+}
+.sub-tag{
+    text-align: center;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.action-button{
+    display: flex;
+    justify-content: center;
+}
+.action-button-real{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: large;
+    text-transform: capitalize;
+    padding: 1.5rem;
+    font-weight: bolder;
+    display: inline-block;
+}
+.action-buttob-real-mod{
+    background-color: green;
+    color: white;
+}
+
+
+/*end of about section*/
+/*start of amenitie section*/
+
+
+/*end of amenities section*/
 /*end of home section*/
