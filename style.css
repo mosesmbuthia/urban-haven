@@ -125,7 +125,6 @@ align-items: center;
 .listings{
     justify-content: center;
         text-align: center;
-       
         font-size: 3.5rem;
     }
 .spaces-container{
@@ -136,7 +135,6 @@ align-items: center;
     flex: 1;
     text-align: center;
     padding: 2rem;
- 
     margin: 2rem;
     webkit-box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
 -moz-box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
@@ -146,7 +144,6 @@ box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
 
 .image-container{
     object-position: center;
-    
     object-fit:fill;
     padding: 0;
 }
