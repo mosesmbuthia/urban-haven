@@ -52,8 +52,14 @@ margin-right: 8px;
 @media screen and (maxwidth: 56.25rem) {
     .upper-header{
         flex-direction:column;
+        flex-wrap: wrap;
     }
-    
+    @media screen and (maxwidth: 56.25rem) {
+        .navigation-bar{
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
 }
 /*end of header*/
 
