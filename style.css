@@ -58,6 +58,7 @@ margin-right: 8px;
         .navigation-bar{
             flex-direction: column;
             flex-wrap: wrap;
+            
         }
     }
 }
@@ -263,3 +264,12 @@ align-items: center;
 /*end of amenities section*/
 
 /*end of home section*/
+.footer{
+    text-align:center;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    background-color: rgb(188, 153, 109);
+    font-size: 2rem;
+    font-weight: bolder;
+}
