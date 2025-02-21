@@ -69,7 +69,7 @@ margin-right: 8px;
 /*start of hero section*/
 .home-section{
     min-height: 100vh;
-background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),url(./assets/images/background-main.jpg);
+background-image:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(./assets/images/background-main.jpg);
 background-position: center;
 background-size:cover;
 display: flex;
@@ -180,7 +180,7 @@ box-shadow: 1px 5px 39px -5px rgba(40,135,94,1);
 /*start of about section*/
 .about-section{
     min-height: 100vh;
-background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.9)),url(./assets/images/facade.jpeg);
+background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(./assets/images/facade.jpeg);
 background-position: center;
 background-size:cover;
 display: flex;
